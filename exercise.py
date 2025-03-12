@@ -45,7 +45,7 @@ equilibrium_quantity = demand(equilibrium_price, a, b)
 price_supply = (c - a + b * t) / (-b - d)
 price_demand = price_supply + t
 quantity_1 = demand(price_demand, a, b)
-#We find the price of the consumer and producer after the tax.
+# We find the price of the consumer and producer after the tax.
 
 
 changing_quantity = quantity_1 - equilibrium_quantity
@@ -78,8 +78,8 @@ deadweight_loss = -(price_demand - price_supply) * (equilibrium_quantity -
 
 
 def main():
-    
     """Function that outputs all answers.
+    
     :return: None
     """
     print(f"{lcl.ANSWER}:", )
